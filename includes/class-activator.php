@@ -21,7 +21,7 @@ class Neureka_Activator {
             score float DEFAULT 0 NOT NULL,
             details longtext NULL,
             created_at datetime DEFAULT CURRENT_TIMESTAMP NOT NULL,
-            PRIMARY KEY  (id)
+            PRIMARY KEY  (id),
             KEY user_id (user_id),
             KEY challenge_id (challenge_id)
         ) $charset_collate;";

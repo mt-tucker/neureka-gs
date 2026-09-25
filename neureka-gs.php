@@ -16,3 +16,5 @@ require_once plugin_dir_path( __FILE__ ) . 'includes/class-activator.php';
 
 // Hook de activación
 register_activation_hook( __FILE__, array( 'Neureka_Activator', 'activate' ) );
+
+
